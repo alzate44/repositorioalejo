@@ -5,6 +5,7 @@ using System.Text;
 
 namespace RepositorioAlejo_AzureFunctions.Functions.Entities
 {
+    //Tabla o BD no relacional
     public class TodoEntity : TableEntity
     {
         public DateTime CreatedTime { get; set; }

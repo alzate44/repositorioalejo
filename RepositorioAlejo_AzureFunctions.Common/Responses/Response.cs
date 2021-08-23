@@ -4,7 +4,8 @@ using System.Text;
 
 namespace RepositorioAlejo_AzureFunctions.Common.Responses
 {
-    class Response
+    //Clase para las respuestas
+    public class Response
     {
         public bool IsSuccess { get; set; }
 
